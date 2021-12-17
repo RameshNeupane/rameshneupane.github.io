@@ -1,4 +1,18 @@
-@import url("http://fonts.cdnfonts.com/css/mainland-personal");
+@font-face {
+  font-family: "Mainland PERSONAL Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mainland PERSONAL Medium"),
+    url("../assets/fonts/MainlandRegular_PERSONAL.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mainland PERSONAL Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mainland PERSONAL Bold"),
+    url("../assets/fonts/MainlandBold_PERSONAL.woff") format("woff");
+}
 
 * {
   margin: 0;
@@ -12,7 +26,7 @@ html {
 }
 
 body {
-  font-family: "Mainland PERSONAL", sans-serif;
+  font-family: "Mainland PERSONAL Medium", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #969197; */
