@@ -1,0 +1,13 @@
+.Nav {
+  font-size: 4rem;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: black;
+}
