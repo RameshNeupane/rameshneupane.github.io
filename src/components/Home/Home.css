@@ -1,0 +1,22 @@
+.Home {
+  position: absolute;
+  top: 8rem;
+  color: white;
+  background-color: rgba(0, 0, 30, 0.4);
+  width: 80%;
+  height: 85%;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.Home h3 {
+  font-size: 3rem;
+}
