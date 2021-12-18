@@ -5,7 +5,7 @@
   align-items: center;
   height: 98vh;
   width: 90vw;
-  background: url("../assets/images/bg-main.jpg");
+  background: url("./images/bg-main.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
