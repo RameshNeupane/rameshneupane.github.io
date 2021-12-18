@@ -1,14 +1,29 @@
 .About {
   position: absolute;
   top: 8rem;
-  font-size: 2rem;
-  color: white;
-  background-color: rgba(0, 0, 30, 0.4);
   width: 80%;
   height: 85%;
   border-radius: 0.5rem;
+  background-color: rgba(0, 0, 30, 0.4);
+}
+
+.about-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: animateAbout 2s;
+  backface-visibility: hidden;
+  color: white;
+}
+
+@keyframes animateAbout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    apacity: 1;
+  }
 }

@@ -1,22 +1,61 @@
 .Home {
   position: absolute;
   top: 8rem;
-  color: white;
-  background-color: rgba(0, 0, 30, 0.4);
   width: 80%;
   height: 85%;
   border-radius: 0.5rem;
+  background-color: rgba(0, 0, 30, 0.4);
+}
+
+.home-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: animateHome 2s;
+  backface-visibility: hidden;
+  color: white;
+}
+
+@keyframes animateHome {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    apacity: 1;
+  }
+}
+
+.Home img {
+  width: 20%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
 }
 
 .Home h1 {
   text-transform: uppercase;
+  letter-spacing: 0.5rem;
   font-size: 6rem;
+  margin-bottom: 2rem;
 }
 
 .Home h3 {
   font-size: 3rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.Home .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.Home .icons a {
+  font-size: 4rem;
+  color: inherit;
 }
