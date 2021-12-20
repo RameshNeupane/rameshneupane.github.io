@@ -5,8 +5,8 @@ import ramesh from "../../images/background.jpg";
 
 const Home = () => {
   return (
-    <div className="Home">
-      <div className="home-container">
+    <div className="home-container">
+      <div className="home">
         <img src={ramesh} alt="Ramesh Neupane" />
         <h1>Ramesh Neupane</h1>
         <h3>Software Engineer</h3>
