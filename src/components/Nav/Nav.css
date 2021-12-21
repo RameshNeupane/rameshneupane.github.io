@@ -12,6 +12,7 @@
   color: black;
   padding: 0.5rem 3rem;
   border-bottom: 0.5rem solid transparent;
+  white-space: nowrap;
 }
 
 .Nav .tab:hover {

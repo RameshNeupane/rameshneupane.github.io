@@ -21,13 +21,13 @@ const Nav = () => {
 
   return (
     <nav className="Nav">
-      <Link to="/about" className="tab" onClick={clickHandle}>
+      <Link to="/about" className="tab" onMouseOver={clickHandle}>
         About
       </Link>
-      <Link to="/" className="tab" onClick={clickHandle}>
+      <Link to="/" className="tab" onMouseOver={clickHandle}>
         R N
       </Link>
-      <Link to="/contact" className="tab" onClick={clickHandle}>
+      <Link to="/contact" className="tab" onMouseOver={clickHandle}>
         Contact
       </Link>
     </nav>
