@@ -27,4 +27,5 @@
   color: white;
   border-radius: 0 0 0.5rem 0.5rem;
   border-bottom: 0.5rem solid rgba(0, 0, 50, 0.8);
+  transition: border-bottom 1s ease-in-out;
 }
