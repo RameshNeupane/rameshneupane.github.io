@@ -3,30 +3,31 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  const navTabs = document.querySelectorAll(".tab");
-  console.log(navTabs);
-  navTabs.forEach((navTab) => {
-    navTab.addEventListener("click", () => {
-      removeActiveTabClass();
-      navTab.classList.add("tab-active");
-    });
-  });
-
-  const removeActiveTabClass = () => {
+  const clickHandle = () => {
+    const navTabs = document.querySelectorAll(".tab");
     navTabs.forEach((navTab) => {
-      navTab.classList.remove("tab-active");
+      navTab.addEventListener("click", () => {
+        removeActiveTabClass();
+        navTab.classList.add("tab-active");
+      });
     });
+
+    const removeActiveTabClass = () => {
+      navTabs.forEach((navTab) => {
+        navTab.classList.remove("tab-active");
+      });
+    };
   };
 
   return (
     <nav className="Nav">
-      <Link to="/about" className="tab tab-active">
+      <Link to="/about" className="tab" onClick={clickHandle}>
         About
       </Link>
-      <Link to="/" className="tab">
-        Ramesh Neupane
+      <Link to="/" className="tab" onClick={clickHandle}>
+        R N
       </Link>
-      <Link to="/contact" className="tab">
+      <Link to="/contact" className="tab" onClick={clickHandle}>
         Contact
       </Link>
     </nav>
