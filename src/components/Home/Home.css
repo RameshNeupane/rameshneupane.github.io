@@ -1,21 +1,10 @@
-.home-container {
-  position: absolute;
-  top: 8rem;
-  width: 80%;
-  height: 85%;
-  border-radius: 0.5rem;
-  background-color: rgba(0, 0, 30, 0.4);
-  box-shadow: rgba(0, 0, 40, 0.4) 0px 22px 70px 4px;
-}
-
 .home {
-  /* position: relative; */
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   animation: animateHome 2s;
   backface-visibility: hidden;
   color: white;
@@ -30,34 +19,67 @@
   }
 }
 
-.home img {
-  width: 20%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-  box-shadow: rgba(0, 0, 50, 0.4) 0px 22px 70px 4px;
+.home .home-img {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: ab; */
+  /* margin: 0 auto; */
+  /* justify-content: center; */
+  /* background-color: brown; */
 }
 
-.home h1 {
+.home .home-img img {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  max-width: 98%;
+  height: auto;
+  border-radius: 0.5rem;
+  /* image-resolution: ; */
+  /* object-fit: scale-down; */
+  box-shadow: rgba(187, 187, 211, 0.4) 0 1rem 2rem 0.4rem;
+}
+
+.home .home-info {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+}
+
+.home .home-info h1 {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  font-size: 6rem;
-  margin-bottom: 2rem;
-}
-
-.home h3 {
   font-size: 3rem;
-  letter-spacing: 0.2rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 2rem; */
 }
 
-.home .icons {
+.home .home-info h3 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  /* margin-bottom: 3rem; */
+}
+
+.home .home-info .icons {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.home .icons a {
-  font-size: 4rem;
+.home .home-info .icons a {
+  font-size: 3rem;
   color: inherit;
+  opacity: 1;
+}
+
+.home .home-info .icons a:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-out;
 }

@@ -5,9 +5,11 @@ import ramesh from "../../images/background.jpg";
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <div className="home">
+    <div className="home">
+      <div className="home-img">
         <img src={ramesh} alt="Ramesh Neupane" />
+      </div>
+      <div className="home-info">
         <h1>Ramesh Neupane</h1>
         <h3>Software Engineer</h3>
         <div className="icons">
