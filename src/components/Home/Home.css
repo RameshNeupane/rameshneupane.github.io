@@ -25,13 +25,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.home .home-img img {
-  width: 98%;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: rgba(187, 187, 211, 0.4) 0 1rem 2rem 0.4rem;
+  background-image: url("../../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .home .home-info {

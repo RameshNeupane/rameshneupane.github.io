@@ -1,14 +1,11 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
 import "./Home.css";
-import ramesh from "../../images/background.jpg";
 
 const Home = () => {
   return (
     <div className="home">
-      <div className="home-img">
-        <img src={ramesh} alt="Ramesh Neupane" />
-      </div>
+      <div className="home-img"></div>
       <div className="home-info">
         <h1>Ramesh Neupane</h1>
         <h3>Software Engineer</h3>
