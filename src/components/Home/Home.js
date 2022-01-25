@@ -9,6 +9,7 @@ const Home = () => {
       <div className="home-info">
         <h1>Ramesh Neupane</h1>
         <h3>Software Engineer</h3>
+        <h3>AI Enthusiast</h3>
         <div className="icons">
           <a
             rel="noreferrer"
