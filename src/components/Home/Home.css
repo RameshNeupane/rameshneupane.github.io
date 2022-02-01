@@ -33,7 +33,7 @@
 }
 
 .home .home-info {
-  min-width: 50%;
+  width: 50%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -69,4 +69,61 @@
 .home .home-info .icons a:hover {
   opacity: 0.5;
   transition: opacity 0.5s ease-out;
+}
+
+@media only screen and (max-width: 864px) {
+  .home .home-info h1 {
+    font-size: 3rem;
+  }
+
+  .home .home-info h3 {
+    font-size: 2.5rem;
+  }
+
+  .home .home-info .icons a {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home .home-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .home .home-info h3 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .home .home-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 0;
+  }
+
+  .home .home-info {
+    width: 100%;
+    height: 30%;
+  }
+
+  .home .home-info h1 {
+    font-size: 2rem;
+  }
+
+  .home .home-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .home .home-info .icons {
+    width: 70%;
+  }
+
+  .home .home-info .icons a {
+    font-size: 2.5rem;
+  }
 }
