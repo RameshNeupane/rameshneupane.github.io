@@ -1,16 +1,15 @@
 .Nav {
-  width: 60%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .Nav .tab {
   font-size: 4rem;
   text-decoration: none;
   color: rgba(0, 0, 50, 0.7);
-  padding: 0.2rem 3rem;
+  padding: 0.2rem 1.5rem;
   margin: 0 0.5rem;
   border-bottom: 0.5rem solid transparent;
   white-space: nowrap;
