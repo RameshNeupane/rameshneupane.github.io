@@ -51,6 +51,14 @@
     width: 100%;
   }
 
+  .Nav .logo {
+    width: 30%;
+  }
+
+  .Nav .navs {
+    width: 70%;
+  }
+
   .Nav .tab {
     font-size: 3rem;
   }
