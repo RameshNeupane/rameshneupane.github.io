@@ -1,16 +1,16 @@
 import React from "react";
 import "./Nav.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav className="Nav">
-      <div>
-        <NavLink to="/" className="tab">
+      <div className="logo">
+        <Link to="/" className="tab">
           R N
-        </NavLink>
+        </Link>
       </div>
-      <div>
+      <div className="navs">
         <NavLink to="/about" className="tab">
           About
         </NavLink>

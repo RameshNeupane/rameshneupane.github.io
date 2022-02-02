@@ -86,9 +86,25 @@
   width: 100%;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .about h1,
+  .skills h1 {
+    font-size: 2.5rem;
+  }
 
-} */
+  .about hr,
+  .skills hr {
+    width: 20%;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  .skills-container {
+    font-size: 3.5rem;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   .about-container {

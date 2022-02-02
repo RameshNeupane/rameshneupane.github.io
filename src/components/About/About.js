@@ -13,6 +13,7 @@ import {
   SiTensorflow,
   SiKeras,
   SiReact,
+  SiOpencv,
 } from "react-icons/si";
 
 const About = () => {
@@ -53,6 +54,7 @@ const About = () => {
             <SiPandas title="Pandas" />
             <SiTensorflow title="Tensorflow" />
             <SiKeras title="Keras" />
+            <SiOpencv title="Opencv" />
           </div>
         </div>
       </div>
