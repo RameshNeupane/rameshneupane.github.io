@@ -6,7 +6,7 @@
   justify-content: center;
   animation: animateAbout 2s;
   backface-visibility: hidden;
-  color: white;
+  color: rgba(0, 0, 30, 1);
 }
 
 @keyframes animateAbout {
@@ -40,7 +40,8 @@
 .skills hr {
   width: 20%;
   height: 0.5rem;
-  background-color: white;
+  background-color: rgb(0, 0, 20);
+  border-color: transparent;
   border-radius: 20%;
 }
 
@@ -73,7 +74,7 @@
 .skills-container hr {
   width: 30%;
   height: 0.5rem;
-  background-color: white;
+  background-color: rgb(0, 0, 20);
   border-radius: 100%;
 }
 
