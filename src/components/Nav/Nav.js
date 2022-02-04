@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="Nav">
       <div className="logo">
         <Link to="/" className="tab logo-tab">
-          R N
+          RN
         </Link>
       </div>
       <div className="navs">
