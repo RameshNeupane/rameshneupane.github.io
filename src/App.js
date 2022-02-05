@@ -4,6 +4,7 @@ import Nav from "./components/Nav/Nav";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import NoMatch from "./components/NoMatch/NoMatch";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NoMatch />} />
           </Routes>
         </div>
       </div>
