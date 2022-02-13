@@ -19,7 +19,11 @@ const Home = () => {
           >
             <FaFacebook />
           </a>
-          <a href="https://github.com/RameshNeupane" target="_black">
+          <a
+            rel="noreferrer"
+            href="https://github.com/RameshNeupane"
+            target="_blank"
+          >
             <FaGithub />
           </a>
           <a

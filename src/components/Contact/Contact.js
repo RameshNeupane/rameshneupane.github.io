@@ -12,7 +12,11 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="github">
-        <a href="https://github.com/RameshNeupane" target="_black">
+        <a
+          rel="noreferrer"
+          href="https://github.com/RameshNeupane"
+          target="_blank"
+        >
           <FaGithub title="Github" />
         </a>
       </div>
