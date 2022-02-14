@@ -143,13 +143,13 @@
 
   .home .home-img {
     width: 100%;
-    height: 70%;
+    height: 60%;
     border-radius: 0.5rem 0.5rem 0 0;
   }
 
   .home .home-info {
     width: 100%;
-    height: 30%;
+    height: 40%;
   }
 
   .home .home-info p {
