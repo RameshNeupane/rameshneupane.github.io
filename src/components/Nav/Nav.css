@@ -1,42 +1,53 @@
 .Nav {
   width: 90%;
   height: auto;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 0.3rem;
+  padding: 0;
 }
 
 .Nav .logo .logo-tab {
   color: rgba(0, 0, 30, 1);
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Nav .logo,
 .Nav .navs {
   width: 50%;
+  height: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .Nav .tab {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  height: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none;
-  color: rgba(0, 0, 50, 0.7);
+  color: rgba(0, 0, 50, 0.8);
   padding: 0.2rem 1rem;
   margin: 0 0.2rem;
+  border-radius: 0.5rem;
   white-space: nowrap;
 }
 
 .Nav .tab:hover {
-  border-radius: 0 0 0.5rem 0.5rem;
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgba(0, 0, 30, 0.3);
 }
 
 .Nav .tab.active {
   color: rgba(0, 0, 30, 1);
-  background-color: rgba(100, 100, 100, 0.8);
-  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: rgba(0, 0, 30, 0.4);
 }
 
 @media only screen and (max-width: 768px) {
@@ -44,8 +55,12 @@
     width: 95%;
   }
 
+  .Nav .logo .logo-tab {
+    font-size: 2.5rem;
+  }
+
   .Nav .tab {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -57,6 +72,10 @@
 
   .Nav .logo {
     width: 30%;
+  }
+
+  .logo-tab {
+    font-size: 2rem;
   }
 
   .Nav .navs {

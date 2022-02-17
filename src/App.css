@@ -10,7 +10,7 @@
 .app-main-container {
   width: 90%;
   height: 85%;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   border-radius: 0.5rem;
   background-color: rgba(150, 150, 150, 0.4);
 }
@@ -25,7 +25,7 @@
   .app-main-container {
     width: 98%;
     height: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 0.5rem 0.5rem 0 0;
   }
 }
