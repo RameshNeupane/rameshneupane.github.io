@@ -14,7 +14,7 @@ const Home = () => {
         <div className="icons">
           <a
             rel="noreferrer"
-            href="https://www.facebook.com/rawmesh.neupane.9/"
+            href="https://www.facebook.com/ramesh.neupane.098/"
             target="_blank"
           >
             <FaFacebook />
